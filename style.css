@@ -1,0 +1,39 @@
+
+/* CSS reset */
+*{
+    margin:0;
+    padding:0;
+}
+
+.fullpage{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.navbar{
+    background-color: blue;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.cols{
+    display: flex;
+}
+
+.col1{
+    background-color: burlywood;
+    margin: 10px;
+    padding:10px;
+    flex: 1;
+    
+}
+
+.col2{
+    background-color: chartreuse;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}

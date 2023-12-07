@@ -6,7 +6,7 @@
 }
 
 p{
-    color:aliceblue;
+    color:black;
     font-size:medium;
     font-weight: 100;
 }
@@ -50,7 +50,7 @@ p{
 }
 
 .box2{
-    background-color:blue;
+    background-color:whitesmoke;
     margin: 0px;
     padding-top: 30px;
     padding-left: 10px;
@@ -60,18 +60,31 @@ p{
     font-size: larger;
 }
 
+#janepic{
+    width: 90px;
+    border-radius: 50px;
+    position: absolute;
+    top: 100px;
+    left: 50px
+}
+
 #jane{
     font-family: sans-serif;
     font-weight: 600;
     font-size:xx-large;
-    color: aliceblue;
+    color: black;
 }
 #seattle{
     font-family: sans-serif;
     font-weight: 400;
     font-size:x-large;
-    color: aliceblue; 
+    color: black; 
     padding-bottom: 10px;
+}
+
+#map{
+    width:10px;
+    margin-right: 5px;
 }
 
 #editprofile{

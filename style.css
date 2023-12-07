@@ -1,12 +1,18 @@
 
 /* CSS reset */
 *{
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
+}
+
+p{
+    color:aliceblue;
+    font-size:medium;
+    font-weight: 100;
 }
 
 .fullpage{
-    background-color: aliceblue;
+    background-color:darkgrey;
     margin: 10px;
     padding: 10px;
     
@@ -25,10 +31,60 @@
 
 .col1{
     background-color: burlywood;
+    flex: 2;
     margin: 10px;
-    padding:10px;
-    flex: 1;
+    padding: 10px;
     
+}
+
+.profilebox{
+    background-color:crimson;
+    margin: 0px;
+    padding: 0px;
+    
+
+.box1{
+    background-color:rgb(142, 179, 235);
+    margin: 0px;
+    padding: 30px;
+}
+
+.box2{
+    background-color:blue;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: larger;
+}
+
+#jane{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size:xx-large;
+    color: aliceblue;
+}
+#seattle{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size:x-large;
+    color: aliceblue; 
+    padding-bottom: 10px;
+}
+
+#editprofile{
+    padding-top: 20px;
+    font-size: small;
+}
+
+}
+
+.education{
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 .col2{
@@ -36,4 +92,16 @@
     margin: 10px;
     padding: 10px;
     flex: 1;
+}
+
+.requests{
+background-color: azure;
+margin: 10px;
+padding: 10px;
+}
+
+.connections{
+background-color: cadetblue;
+margin: 10px;
+padding: 10px;
 }

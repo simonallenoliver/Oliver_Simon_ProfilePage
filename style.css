@@ -6,11 +6,6 @@
     font-family: sans-serif;
 }
 
-p{
-    color:black;
-    font-size:16pt;
-    font-weight: 100;
-}
 
 .fullpage{
     background-color:white;
@@ -22,10 +17,39 @@ p{
 }
 
 .navbar{
-    background-color: blue;
+    background-color: black;
     margin: 10px;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+}
+
+.profile{
+    margin-right: 30px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    color: white;
+    
+}
+#profiletext{
+    color: white;
+    font-size: 30pt;
+    font-weight: 700;
+    padding-right: 25px;
+}
+
+#myprofiletext{
+    font-weight: 700;
+}
+
+#signout{
+    color: white;
+    background-color: rgb(98, 137, 210);
+    font-weight: 700;
+    padding: 5px;
 }
 
 .cols{
@@ -43,15 +67,15 @@ p{
 }
 
 .profilebox{
-    background-color:gray;
+    background-color: grey;
     margin: 0px;
     padding: 0px;
     padding-bottom: 1px;
     
 
 .box1{
-    background-color:gray;
-    margin: 3px;
+    background-color:rgb(98, 137, 210);
+    margin: 0px;
     margin-top: 0;
     padding: 0px;
     margin-bottom: 0;
@@ -134,11 +158,11 @@ p{
 }
 
 .col2{
-    background-color: chartreuse;
+    background-color: white;
     margin: 10px;
     margin-right: 150px;
     margin-left: 33px;
-    padding: 10px;
+    padding: 0px;
     flex: 1;
 }
 
@@ -165,25 +189,38 @@ padding: 0px;
 }
 
 .requestbox2{
-    background-color: blue;
+    background-color: white;
     margin:0px;
     padding: 10px;
     font-size: 12pt;
     color: black;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-color: gray;
    
+}
+
+.toddbox{
+    display: flex;
+    align-items: center;
+    font-size: 15pt;
 }
 
 .friend{
     width: 40px;
     border-radius: 20px;
+    padding-right: 5px;
 }
 
 .acceptclose{
     width:30px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .connections{
-background-color: cadetblue;
-margin: 10px;
-padding: 10px;
+    background-color: gray;
+    padding: 0px;
+    color: white;
+    font-size: 13pt;
 }

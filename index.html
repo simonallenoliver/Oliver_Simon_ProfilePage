@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   
+
     <!-- this is the container for the larger blocks -->
     <div class="fullpage">
-        
+
         <!-- this is the main bar at the top of the page -->
         <div class="navbar">
-            Profile Home Find Connections Sign Out
+            <div class = "profile">
+                <p id = "profiletext">Profile</p>
+                <p>Home</p>
+                <p id = "myprofiletext">My Profile</p>
+                <p>Find Connections</p>
+            </div>
+
+            <p id="signout">Sign Out</p>
         </div>
 
         <!-- this box houses the two columns found under the navbar -->
-        <div class = "cols">
+        <div class="cols">
 
             <!-- this is the left column containing the profilebox block and education block -->
             <div class="col1">
 
                 <div class="profilebox">
-                    <div class = "box1">
+                    <div class="box1">
                         <img id="janepic" src="jane-m.jpg" alt="Jane Pic">
                     </div>
                     <div class="box2">
-                        <h1 id = "jane">Jane Doe</h1>
-                        <h2 id = "seattle"><img id = map src="map-marker.png" alt="map marker">Seattle</h2>
+                        <h1 id="jane">Jane Doe</h1>
+                        <h2 id="seattle"><img id=map src="map-marker.png" alt="map marker">Seattle</h2>
                         <p>Developer | Engineer | Problem Solver</p>
                         <p>Master of shadows and the internet!</p>
                         <p id="editprofile"><img id="map" src="gear.png" alt="gear"><a href="url">edit profile</a></p>
                     </div>
-                    
+
                 </div>
 
                 <div class="education">
@@ -42,45 +51,76 @@
                     </div>
                     <div class="edbox2">
                         <p>Coding Dojo - Full Stack Bootcamp</p>
-                        <p ID = "date">Dec 2019 - Mar 2020</p>
-                        <p id = "blackbelt">Triple black belt in Python, MERN, and C#</p>
+                        <p ID="date">Dec 2019 - Mar 2020</p>
+                        <p id="blackbelt">Triple black belt in Python, MERN, and C#</p>
                     </div>
-                    
+
                 </div>
 
             </div>
 
             <!-- this is the right column containg two main blocks -->
-            <div class = "col2">
+            <div class="col2">
 
-                <div class = "requests">
+                <div class="requests">
                     <div class="requestbox1">
-                       2 Connection Requests
+                        2 Connection Requests
                     </div>
 
                     <div class="requestbox2">
                         <div class="toddbox">
-                            <div><img class = "friend" src="todd-s.jpg" alt="Todd"></div>
+                            <div><img class="friend" src="todd-s.jpg" alt="Todd"></div>
                             <div>Todd E</div>
-                            <div><img class= "acceptclose" src="accept-circle.png" alt="accept"></div>
-                            <div><img class = "acceptclose" src="close-circle.png" alt="close"></div>
+                            <div><img class="acceptclose" src="accept-circle.png" alt="accept"></div>
+                            <div><img class="acceptclose" src="close-circle.png" alt="close"></div>
                         </div>
-                        
-                            <p><img class="friend" src="phil-s.jpg" alt="Phil">Phil K</p>
+
+                        <div class="toddbox">
+                            <div><img class="friend" src="phil-s.jpg" alt="Phil"></div>
+                            <div>Phil K</div>
+                            <div><img class="acceptclose" src="accept-circle.png" alt="accept"></div>
+                            <div><img class="acceptclose" src="close-circle.png" alt="close"></div>
+                        </div>
+
                     </div>
                 </div>
 
                 <div class="connections">
-                    your connections
-                </div>
+                    <div class="requestbox1">
+                        500+ Your Connections
+                    </div>
+
+                    <div class="requestbox2">
+                        <div class="toddbox">
+                            <div><img class="friend" src="adrien-s.jpg" alt="adrien-s"></div>
+                            <div>Adrien D</div>
+                        </div>
+
+                        <div class="toddbox">
+                            <div><img class="friend" src="anne-s.jpg" alt="anne-s"></div>
+                            <div>Anne J</div>
+                        </div>
+
+                        <div class="toddbox">
+                            <div><img class="friend" src="alayne-s.jpg" alt="alayne-s"></div>
+                            <div>Alayne T</div>
+                        </div>
+
+                        <div class="toddbox">
+                            <div><img class="friend" src="arry-s.jpg" alt="arry-s"></div>
+                            <div>Arry Y</div>
+                        </div>
+
+                    </div>
 
             </div>
 
-        
+
 
         </div>
 
     </div>
 
 </body>
+
 </html>

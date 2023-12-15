@@ -40,7 +40,7 @@
                         <h2 id="seattle"><img id=map src="map-marker.png" alt="map marker">Seattle</h2>
                         <p>Developer | Engineer | Problem Solver</p>
                         <p>Master of shadows and the internet!</p>
-                        <p id="editprofile"><img id="map" src="gear.png" alt="gear"><a href="url">edit profile</a></p>
+                        <p id="editprofile"><img id="map" src="gear.png" alt="gear"><button onclick="changeName(jane)">edit profile</button></p>
                     </div>
 
                 </div>
@@ -68,18 +68,18 @@
                     </div>
 
                     <div class="requestbox2">
-                        <div class="toddbox">
+                        <div id="toddboxz">
                             <div><img class="friend" src="todd-s.jpg" alt="Todd"></div>
                             <div>Todd E</div>
-                            <div><img class="acceptclose" src="accept-circle.png" alt="accept"></div>
-                            <div><img class="acceptclose" src="close-circle.png" alt="close"></div>
+                            <div><img class="acceptclose" src="accept-circle.png" alt="accept" onclick="hide(toddboxz)"></div>
+                            <div><img class="acceptclose" src="close-circle.png" alt="close" onclick="hide(toddboxz)"></div>
                         </div>
 
-                        <div class="toddbox">
+                        <div id="toddboxw">
                             <div><img class="friend" src="phil-s.jpg" alt="Phil"></div>
                             <div>Phil K</div>
-                            <div><img class="acceptclose" src="accept-circle.png" alt="accept"></div>
-                            <div><img class="acceptclose" src="close-circle.png" alt="close"></div>
+                            <div><img class="acceptclose" src="accept-circle.png" alt="accept"onclick="hide(toddboxw)"></div>
+                            <div><img class="acceptclose" src="close-circle.png" alt="close"onclick="hide(toddboxw)"></div>
                         </div>
 
                     </div>
@@ -120,6 +120,8 @@
         </div>
 
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 
